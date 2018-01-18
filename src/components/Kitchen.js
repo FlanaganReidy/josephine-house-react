@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export default class LivingRoom extends Component{
+export default class Kitchen extends Component{
 
   render(){
     return(
-    <div className = 'LivingRoom'>
-    <h2 className='pageTitle'>Living Room</h2>
+    <div className = 'Kitchen'>
+    <h2 className='pageTitle'>Kitchen</h2>
     <div className="wrapper">
     <h3 className = "sectionTitle">House Rules</h3>
     <div className="InfoBlock">

@@ -26,3 +26,32 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.navBar{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+}
+a{
+  padding: 2% 0% 3% 3%;
+}
+.container{
+  display:flex;
+  align-content: space-between;
+}
+.wrapper {
+  display:flex;
+  align-content: center;
+}
+.InfoBlock{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.sectionTitle{
+  padding-left: 4%;
+}
+.Backyard, .HouseRules, .Kitchen, .LivingRoom, .Office{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

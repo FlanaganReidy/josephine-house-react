@@ -3,6 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import LivingRoom from './components/LivingRoom.js';
+import HouseRules from './components/HouseRules.js';
+import Container from './components/Container.js';
+import Kitchen from './components/Kitchen.js';
+import Office from './components/Office.js';
+import Backyard from './components/Backyard.js';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(
+  <BrowserRouter>
+  <Container>
+    <Switch>
+      <Route path='/LivingRoom' component={LivingRoom}/>
+      <Route path='/Kitchen' component ={Kitchen}/>
+      <Route path='/Office' component={Office}/>
+      <Route path='/Backyard' component={Backyard}/>
+      <Route exact path='/' component={HouseRules}/>
+    </Switch>
+  </Container>
+</BrowserRouter>, document.getElementById('root'));
 registerServiceWorker();
