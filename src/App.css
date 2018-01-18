@@ -30,17 +30,38 @@
   display:flex;
   width: 100%;
   justify-content: center;
+  margin-top: 5%;
 }
-a{
-  padding: 2% 0% 3% 3%;
+
+.Backyard, .HouseRules, .Kitchen, .LivingRoom, .Sitting{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color:#E6F2B0;
+}
+.navBar > a{
+  padding: 1% 1% 1% 1%;
+  background-color: #34410E;
+  margin: 2% 0% 3% 3%;
+  color:#EAF5D7;
+  text-decoration: none;
+  border-radius: 10px;
 }
 .container{
   display:flex;
   align-content: space-between;
 }
+.wholePage{
+    background-color: #7C8935;
+}
 .wrapper {
   display:flex;
   align-content: center;
+  background-color:#34410E;
+  margin: 10%;
+
 }
 .InfoBlock{
   padding-left: 8%;
@@ -49,9 +70,13 @@ a{
 .sectionTitle{
   padding-left: 4%;
 }
-.Backyard, .HouseRules, .Kitchen, .LivingRoom, .Office{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+.pageTitle{
+  font-family: 'Kavivanar', cursive;
+  color:#34410E;
+}
+.roomImage{
+  width: 50%;
+  height:50%;
+  background-color: #34410E;
+  padding: 2%;
 }

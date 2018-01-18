@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-
+import frontOfHouse from './01front.jpg';
 export default class HouseRules extends Component{
 
   render(){
     return(
     <div className = 'HouseRules'>
     <h2 className= "pageTitle">Welcome to Josephine House!</h2>
+    <img className ="roomImage" src={frontOfHouse} alt = "front of house"/>
     <div className="wrapper">
     <h3 className = "sectionTitle">House Rules</h3>
     <div className="InfoBlock">

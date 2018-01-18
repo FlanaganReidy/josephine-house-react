@@ -8,7 +8,7 @@ import LivingRoom from './components/LivingRoom.js';
 import HouseRules from './components/HouseRules.js';
 import Container from './components/Container.js';
 import Kitchen from './components/Kitchen.js';
-import Office from './components/Office.js';
+import Sitting from './components/Sitting.js';
 import Backyard from './components/Backyard.js';
 
 
@@ -18,7 +18,7 @@ ReactDOM.render(
     <Switch>
       <Route path='/LivingRoom' component={LivingRoom}/>
       <Route path='/Kitchen' component ={Kitchen}/>
-      <Route path='/Office' component={Office}/>
+      <Route path='/Sitting' component={Sitting}/>
       <Route path='/Backyard' component={Backyard}/>
       <Route exact path='/' component={HouseRules}/>
     </Switch>
